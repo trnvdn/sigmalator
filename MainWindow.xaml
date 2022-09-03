@@ -1,0 +1,31 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="SIGMALATOR" Height="300" Width="500">
+    <Grid Name="buttons">
+        <TextBox Name="text" HorizontalAlignment="Center" Height="51" Margin="0,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358" FontSize="22" FontWeight="Bold" TextAlignment="Center" Background="#FFFFF9B5"/>
+        <Button Content="1" HorizontalAlignment="Left" Height="31" Margin="51,111,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="2" HorizontalAlignment="Left" Height="31" Margin="151,111,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="3" HorizontalAlignment="Left" Height="31" Margin="251,111,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="4" HorizontalAlignment="Left" Height="31" Margin="51,147,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="5" HorizontalAlignment="Left" Height="31" Margin="151,147,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="6" HorizontalAlignment="Left" Height="31" Margin="251,147,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="7" HorizontalAlignment="Left" Height="31" Margin="51,183,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="8" HorizontalAlignment="Left" Height="31" Margin="151,183,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="9" HorizontalAlignment="Left" Height="31" Margin="251,183,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="=" HorizontalAlignment="Left" Height="31" Margin="51,219,0,0" VerticalAlignment="Top" Width="100" Background="#FFAF77B5"/>
+        <Button Content="0" HorizontalAlignment="Left" Height="31" Margin="151,219,0,0" VerticalAlignment="Top" Width="100" Background="#FF67AB3B"/>
+        <Button Content="/" HorizontalAlignment="Left" Height="31" Margin="251,219,0,0" VerticalAlignment="Top" Width="100" Background="#FF3097F7"/>
+        <Button Content="+" HorizontalAlignment="Left" Height="31" Margin="356,147,0,0" VerticalAlignment="Top" Width="100" Background="#FF3097F7"/>
+        <Button Content="-" HorizontalAlignment="Left" Height="31" Margin="356,183,0,0" VerticalAlignment="Top" Width="100" Background="#FF3097F7"/>
+        <Button Content="*" HorizontalAlignment="Left" Height="31" Margin="356,219,0,0" VerticalAlignment="Top" Width="100" Background="#FF3097F7"/>
+        <Button Content="C" HorizontalAlignment="Left" Height="31" Margin="356,111,0,0" VerticalAlignment="Top" Width="100" Background="#FF3097F7"/>
+
+
+    </Grid>
+
+</Window>
